@@ -1,4 +1,4 @@
-# Dash DRM Livestream decrypt API
+# Simple Dash DRM Livestream decrypt example
 
 ## DISCLAIMER
 
@@ -10,9 +10,9 @@ DULY NOTE THIS IS NOT AN ALL-IN-ONE SOLUTION AND IT REQUIRES YOU TO PROVIDE THE 
 
 ## Usage
 
-First of all make sure ffmpeg is on your PATH
+First of all make sure ffmpeg is on your ```PATH```
 
-By default is listening to port 3000, you can change this behaviour by setting the env var PORT to whatever port you wish
+This script creates a web server and by default is listening to port 3000, however you can change this behaviour by setting the environmental variable ```PORT``` to whatever port you wish
 
 Start:
 
